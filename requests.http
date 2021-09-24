@@ -1,0 +1,12 @@
+GET http://localhost:3001/api/notes HTTP/1.1
+
+###
+DELETE http://localhost:3001/api/notes/1 HTTP/1.1
+###
+POST http://localhost:3001/api/notes HTTP/1.1
+content-type: application/json
+
+{
+    "content": "Testitesti",
+    "important": true
+}
