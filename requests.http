@@ -10,3 +10,11 @@ content-type: application/json
     "content": "Moi maailma",
     "important": true
 }
+###
+PUT http://localhost:3001/api/notes/61717b5b261011edfbac51cf HTTP/1.1
+content-type: application/json
+
+{
+    "content": "Moi maailma",
+    "important": true
+}
