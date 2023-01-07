@@ -3,21 +3,14 @@ GET http://localhost:3001/api/notes HTTP/1.1
 ###
 DELETE http://localhost:3001/api/notes/1 HTTP/1.1
 ###
-POST http://localhost:3001/api/login HTTP/1.1
-content-type: application/json
-
-{
-    "username": "hahven",
-    "password": "salainen"
-}
 ###
 POST http://localhost:3001/api/notes HTTP/1.1
 content-type: application/json
 
 {
-    "content": "käyttäjänNotekolkki",
+    "content": "TimoIstuuSohvalla",
     "important": true,
-    "userId": "63b9b62ec0048478ba9db624"
+    "userId": "63b9d26ffa5ba696826e48d4"
 }
 ###
 PUT http://localhost:3001/api/notes/61717b5b261011edfbac51cf HTTP/1.1
@@ -35,6 +28,15 @@ POST http://localhost:3001/api/users HTTP/1.1
 content-type: application/json
 
 {
-    "username": "hahven1",
-    "name": "heini ahven1"
+    "username": "hekaahve",
+    "name": "heini k ahven",
+    "password":"salasana"
+}
+###
+POST http://localhost:3001/api/login HTTP/1.1
+content-type: application/json
+
+{
+    "username": "hekaahve",
+    "password": "salasana"
 }
