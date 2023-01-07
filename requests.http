@@ -6,11 +6,11 @@ DELETE http://localhost:3001/api/notes/1 HTTP/1.1
 ###
 POST http://localhost:3001/api/notes HTTP/1.1
 content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imhla2FhaHZlIiwiaWQiOiI2M2I5ZDI2ZmZhNWJhNjk2ODI2ZTQ4ZDQiLCJpYXQiOjE2NzMxMjM1NjR9.iwqRLk7ztyMtWIKNeSOBWez8JFmMX6OFkq4yo8aQGA4
 
 {
-    "content": "TimoIstuuSohvalla",
-    "important": true,
-    "userId": "63b9d26ffa5ba696826e48d4"
+    "content": "tokentesti2",
+    "important": true
 }
 ###
 PUT http://localhost:3001/api/notes/61717b5b261011edfbac51cf HTTP/1.1
