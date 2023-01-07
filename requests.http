@@ -15,7 +15,7 @@ POST http://localhost:3001/api/notes HTTP/1.1
 content-type: application/json
 
 {
-    "content": "käyttäjänNoteToka",
+    "content": "käyttäjänNotekolkki",
     "important": true,
     "userId": "63b9b62ec0048478ba9db624"
 }
