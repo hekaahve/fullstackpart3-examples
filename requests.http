@@ -9,7 +9,7 @@ content-type: application/json
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imhla2FhaHZlIiwiaWQiOiI2M2I5ZDI2ZmZhNWJhNjk2ODI2ZTQ4ZDQiLCJpYXQiOjE2NzMxMjM1NjR9.iwqRLk7ztyMtWIKNeSOBWez8JFmMX6OFkq4yo8aQGA4
 
 {
-    "content": "tokentesti2",
+    "content": "tokentesti3",
     "important": true
 }
 ###
